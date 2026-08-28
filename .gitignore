@@ -1,4 +1,19 @@
-/.idea
-/.vscode
-CMakeLists.txt
-/cmake-build-debug
+# build output
+cmake-build-*/
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+
+# IDE
+.vs/
+.idea/
+*.user
+*.suo
+
+# generated
+*.o
+*.exe
+*.pdb
